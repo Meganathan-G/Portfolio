@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman';
+}
+
+body {
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 6%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.name {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 25px;
+  color:white;
+  text-decoration:none;
+  font-weight: 600;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+.navbar a.bor{
+  /* border: 3px solid yellow; */
+  background-color: #0ef;
+  color: rgba(23, 32, 42, 10);
+  border-radius: 10px;
+  width: 110px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.navbar a.bor:hover{
+  box-shadow: 0 0 2px cyan,
+  0 0 2px cyan, 0 0 5px cyan,
+  0 0 10px cyan, 0 0 20px cyan;
+}
+
+a.cont-box {
+  padding: 5px 10px;
+  border-radius: 40px;
+  background-color: rgb(10, 148, 228);
+  font-weight: 600px;
+}
+
+a.cont-box:hover {
+  /* background-color: rgb(9, 243, 243); */
+  color: black;
+  border-radius: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: 0 0 2px cyan,
+  0 0 2px cyan, 0 0 5px cyan,
+  0 0 10px cyan, 0 0 20px cyan;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(../CSS/Img/Dark_Blue_Rajan_Img.png);
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+
+.home-content {
+  max-width: 1000px;
+  margin: 10px 0px 50px 0px;
+  letter-spacing: 2px;
+  top: auto;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;  
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: -3px 0;
+}
+
+.home-content p {
+  color: #0ef;
+  position:fixed;
+}
+.home-sci{
+  padding-top: 25px;
+}
+
+
+
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 3px solid skyblue;
+  border-radius: 50%;
+  font-size: 20px;
+  color: aqua;
+  text-decoration:none;
+  margin: 90px 20px 40px 0px;
+}
+
+.home-sci a:hover {
+  background-color: #0ef;
+  color: black;
+  box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 2px cyan,
+  0 0 2px cyan, 0 0 5px cyan,
+  0 0 10px cyan, 0 0 20px cyan;
+}
+p {
+  padding-top: 15px;
+}
